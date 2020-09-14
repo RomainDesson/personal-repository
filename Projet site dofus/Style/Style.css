@@ -1,0 +1,33 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url("../Ressources/main-background.jpg");
+  background-size: cover;
+}
+
+body header {
+  background: cornsilk;
+}
+
+body main {
+  height: 80vh;
+  background: cornsilk;
+}
+
+body footer {
+  background: cornsilk;
+  height: 5vh;
+}
+
+.contener {
+  background: crimson;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: coral;
+}
+/*# sourceMappingURL=Style.css.map */
