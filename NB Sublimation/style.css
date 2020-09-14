@@ -1,0 +1,52 @@
+body
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	background-color: rgb(1,40,59);
+ }
+li
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	margin-top: 10px;
+}
+a
+{
+	text-decoration: none;
+}
+.firstComp
+{
+	background-color: blue;
+}
+.secondComp
+{
+	background-color: red;
+}
+.thirdComp
+{
+	background-color: green;
+}
+article
+{
+	border: solid 2px black;
+}
+#footer
+{
+	border: solid 2px black;
+}
+#header
+{
+	border: solid 2px black;
+}
+#container
+{
+	width: ;
+}
+#logo
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
