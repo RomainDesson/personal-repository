@@ -11,6 +11,12 @@ body{
     main {
         height: 80vh;
         background: cornsilk;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "contenu1 contenu2
+        contenu3 contenu4";
     }
     footer {
         background: cornsilk;
@@ -27,4 +33,16 @@ ul {
 }
 a {
     color: coral;
+}
+.contenu1 {
+    grid-area: contenu1;
+}
+.contenu2 {
+    grid-area: contenu2;
+}
+.contenu3 {
+    grid-area: contenu3;
+}
+.contenu4 {
+    grid-area: contenu4;
 }
