@@ -5,6 +5,10 @@ html {
     overflow-y: hidden;
     background: darkslategray;
     color: whitesmoke;
+    height: 100%;
+}
+body {
+    min-height: 100%;
 }
 header {
     margin-bottom: 2em;
@@ -49,13 +53,12 @@ div a {
     margin: 0;
 }
 .card:hover {
-    height: 100%;
-
+    height: auto;
 }
 footer {
-    display: block;
-    position: relative;
-    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 @media (max-width: 800px) {
     main {

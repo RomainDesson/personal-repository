@@ -1,30 +1,43 @@
 body {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     background-image: url("../Ressources/main-background.jpg");
     background-size: cover;
 }
 body{
     header {
+        margin-top: 5px;
+        margin-bottom: 5px;
         background: cornsilk;
+        border: 2px solid black;
     }
     main {
-        height: 80vh;
         background: cornsilk;
+        border: 2px solid black;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "contenu1 contenu2
-        contenu3 contenu4";
+        height: 80vh;
     }
     footer {
-        background: cornsilk;
-        height: 5vh;
+
     }
 }
 .contener {
     background: crimson;
+    margin: 30px;
+    max-width: 600px;
+    justify-self: center;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.contener:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: blue;
+    
 }
 ul {
     li {
@@ -35,14 +48,13 @@ a {
     color: coral;
 }
 .contenu1 {
-    grid-area: contenu1;
-}
+    
 .contenu2 {
-    grid-area: contenu2;
+
 }
 .contenu3 {
-    grid-area: contenu3;
+
 }
 .contenu4 {
-    grid-area: contenu4;
+
 }
